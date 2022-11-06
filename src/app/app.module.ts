@@ -12,6 +12,7 @@ import { PresentationComponent } from './components/presentation/presentation.co
 import { ContainerComponent } from './components/container/container.component';
 import { ClientOptionComponent } from './components/client-option/client-option.component';
 import { ClientCardComponent } from './components/client-option/client-card/client-card.component';
+import { PricesComponent } from './components/prices/prices.component';
 
 registerLocaleData(localePT)
 
@@ -23,7 +24,8 @@ registerLocaleData(localePT)
     PresentationComponent,
     ContainerComponent,
     ClientOptionComponent,
-    ClientCardComponent
+    ClientCardComponent,
+    PricesComponent
   ],
   imports: [
     BrowserModule,

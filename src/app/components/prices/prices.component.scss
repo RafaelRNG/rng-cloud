@@ -1,0 +1,21 @@
+@import '../../../styles/variables';
+
+.cardPremium {
+   border: solid 1px $primary;
+}
+
+.cardHeaderPremium {
+   background-color: $primary;
+   color: #fafafa;
+   border: solid 1px $primary;
+}
+
+.btn-lg {
+   color: $primary;
+   border: solid 1px $primary;
+
+   &:hover {
+      background-color: $primary;
+      color: #fafafa;
+   }
+}
