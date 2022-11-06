@@ -10,8 +10,8 @@
                </span>
             </span>
             <p class="card-text mt-3">{{ commentClient }}</p>
-            <p class="card-text"><small class="text-muted">{{ datePublication | date : 'dd/MMM/yyyy HH:mm' : 'BRL'
-                  }}</small>
+            <p class="card-text"><small class="text-muted">{{ datePublication | date : 'dd/MM/yyyy HH:mm' : '' :
+                  'pt-BR' }}</small>
             </p>
 
             <button class="btn btn-link" *ngFor="let hash of hashtagsClient">#{{ hash }}</button>

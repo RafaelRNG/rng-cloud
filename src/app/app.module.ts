@@ -1,3 +1,5 @@
+import { registerLocaleData } from '@angular/common'
+import localePT from '@angular/common/locales/pt'
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -10,6 +12,8 @@ import { PresentationComponent } from './components/presentation/presentation.co
 import { ContainerComponent } from './components/container/container.component';
 import { ClientOptionComponent } from './components/client-option/client-option.component';
 import { ClientCardComponent } from './components/client-option/client-card/client-card.component';
+
+registerLocaleData(localePT)
 
 @NgModule({
   declarations: [
