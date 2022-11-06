@@ -1,0 +1,36 @@
+@import '../../../styles/variables';
+
+.btnLogin {
+   background-color: $primary;
+   font-size: 1.3rem;
+   width: 10rem;
+
+   &:active {
+      background-color: rgba($primary, .7);
+   }
+}
+
+.navbar-brand {
+   font-size: 1.7rem !important;
+
+   .bi-cloud {
+      color: $primary;
+      font-size: 1.7rem;
+   }
+}
+
+.nav-item {
+   .nav-link {
+      font-size: 1.3rem;
+
+      &:hover:not(.active) {
+         transition: color 250ms ease;
+         color: #ddd;
+      }
+   }
+
+   .active {
+      color: $primary;
+      font-weight: bold;
+   }
+}
