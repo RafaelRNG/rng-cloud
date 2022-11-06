@@ -34,3 +34,9 @@
       font-weight: bold;
    }
 }
+
+.dropdown-item {
+   &:active {
+      background-color: $primary;
+   }
+}
