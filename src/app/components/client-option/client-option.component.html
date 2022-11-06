@@ -1,0 +1,12 @@
+<section class="mt-5">
+   <hr>
+   <h3 class="titleCustomer text-secondary">Veja a opinião de nossos clientes!</h3>
+
+   <span class="d-flex flex-wrap flex-row">
+      <div *ngFor="let client of clients" class="col-sm-12 col-md-6 col-lg-4">
+         <rng-client-card [imagePath]="client.imagePath" [nameClient]="client.nameClient" [tagClient]="client.tagClient"
+            [commentClient]="client.commentClient" [hashtagsClient]="client.hashtagsClient"
+            [datePublication]="client.datePublication"></rng-client-card>
+      </div>
+   </span>
+</section>

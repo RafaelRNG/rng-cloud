@@ -1,0 +1,25 @@
+.divider {
+   height: 0.1rem;
+   margin: 0 auto;
+   border-radius: 20px;
+}
+
+.titleCustomer {
+   text-align: center;
+   transform: translateY(-2.21rem) !important;
+   background-color: #fafafa;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.optionContainer {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+
+@media(min-width: 500px) {
+   .titleCustomer {
+      width: 28rem;
+   }
+}

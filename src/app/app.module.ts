@@ -8,6 +8,8 @@ import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { PresentationComponent } from './components/presentation/presentation.component';
 import { ContainerComponent } from './components/container/container.component';
+import { ClientOptionComponent } from './components/client-option/client-option.component';
+import { ClientCardComponent } from './components/client-option/client-card/client-card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { ContainerComponent } from './components/container/container.component';
     HomeComponent,
     HeaderComponent,
     PresentationComponent,
-    ContainerComponent
+    ContainerComponent,
+    ClientOptionComponent,
+    ClientCardComponent
   ],
   imports: [
     BrowserModule,
