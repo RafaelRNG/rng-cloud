@@ -14,7 +14,7 @@ import { ClientOptionComponent } from './components/client-option/client-option.
 import { ClientCardComponent } from './components/client-option/client-card/client-card.component';
 import { PricesComponent } from './components/prices/prices.component';
 import { PriceTableComponent } from './components/prices/price-table/price-table.component';
-
+import { WriteToUsComponent } from './components/write-to-us/write-to-us.component';
 registerLocaleData(localePT)
 
 @NgModule({
@@ -27,7 +27,8 @@ registerLocaleData(localePT)
     ClientOptionComponent,
     ClientCardComponent,
     PricesComponent,
-    PriceTableComponent
+    PriceTableComponent,
+    WriteToUsComponent
   ],
   imports: [
     BrowserModule,

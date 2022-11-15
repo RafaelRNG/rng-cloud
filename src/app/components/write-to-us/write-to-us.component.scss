@@ -1,0 +1,11 @@
+@import '../../../styles/variables';
+
+.btnWrite {
+   background-color: $primary;
+   font-size: 1.3rem;
+   width: 10rem;
+
+   &:active {
+      background-color: rgba($primary, .7);
+   }
+}
