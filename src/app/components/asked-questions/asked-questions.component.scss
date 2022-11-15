@@ -1,0 +1,11 @@
+@import '../../../styles/variables';
+
+.accordion-button:not(.collapsed) {
+   background-color:  $primary;
+   color: #fafafa;
+   box-shadow: 0 0 0 0.25rem rgba($primary, 0.25);
+}
+
+.accordion {
+   --bs-accordion-btn-focus-box-shadow: none;
+}

@@ -15,6 +15,7 @@ import { ClientCardComponent } from './components/client-option/client-card/clie
 import { PricesComponent } from './components/prices/prices.component';
 import { PriceTableComponent } from './components/prices/price-table/price-table.component';
 import { WriteToUsComponent } from './components/write-to-us/write-to-us.component';
+import { AskedQuestionsComponent } from './components/asked-questions/asked-questions.component';
 registerLocaleData(localePT)
 
 @NgModule({
@@ -28,7 +29,8 @@ registerLocaleData(localePT)
     ClientCardComponent,
     PricesComponent,
     PriceTableComponent,
-    WriteToUsComponent
+    WriteToUsComponent,
+    AskedQuestionsComponent
   ],
   imports: [
     BrowserModule,
