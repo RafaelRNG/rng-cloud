@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AskedQuestionsComponent implements OnInit {
 
+  public parentData: string = 'parent data'
+
   constructor() { }
 
   ngOnInit(): void {
