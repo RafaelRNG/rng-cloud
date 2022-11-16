@@ -1,15 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'rng-container',
-  templateUrl: './container.component.html',
-  styleUrls: ['./container.component.scss']
+  templateUrl: './container.component.html'
 })
-export class ContainerComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class ContainerComponent { }

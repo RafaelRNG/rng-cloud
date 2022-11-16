@@ -1,11 +1,11 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'rng-client-card',
   templateUrl: './client-card.component.html',
   styleUrls: ['./client-card.component.scss']
 })
-export class ClientCardComponent implements OnInit {
+export class ClientCardComponent {
 
   @Input() public imagePath!: string
   @Input() public nameClient!: string
@@ -13,10 +13,4 @@ export class ClientCardComponent implements OnInit {
   @Input() public commentClient!: string
   @Input() public hashtagsClient!: string[]
   @Input() public datePublication!: string
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

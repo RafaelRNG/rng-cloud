@@ -11,8 +11,6 @@ export class AskedQuestionsComponent implements OnInit {
   public parentData: string = 'parent data'
   public askeds!: AskedInterface[]
 
-  constructor() { }
-
   ngOnInit(): void {
     this.askeds = askeds
   }

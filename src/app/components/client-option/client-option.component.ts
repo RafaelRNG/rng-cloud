@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ClientInterface, Clients } from './clients.mockdata'
 
 @Component({
@@ -6,13 +6,6 @@ import { ClientInterface, Clients } from './clients.mockdata'
   templateUrl: './client-option.component.html',
   styleUrls: ['./client-option.component.scss']
 })
-export class ClientOptionComponent implements OnInit {
-
+export class ClientOptionComponent {
   public clients: ClientInterface[] = Clients
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

@@ -1,15 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'rng-price-table',
-  templateUrl: './price-table.component.html',
-  styleUrls: ['./price-table.component.scss']
+  templateUrl: './price-table.component.html'
 })
-export class PriceTableComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class PriceTableComponent { }
