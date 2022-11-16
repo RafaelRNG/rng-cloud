@@ -6,40 +6,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { HomeComponent } from './views/home/home.component';
-import { HeaderComponent } from './components/header/header.component';
-import { PresentationComponent } from './components/presentation/presentation.component';
-import { ContainerComponent } from './components/container/container.component';
-import { ClientOptionComponent } from './components/client-option/client-option.component';
-import { ClientCardComponent } from './components/client-option/client-card/client-card.component';
-import { PricesComponent } from './components/prices/prices.component';
-import { PriceTableComponent } from './components/prices/price-table/price-table.component';
-import { WriteToUsComponent } from './components/write-to-us/write-to-us.component';
-import { AskedQuestionsComponent } from './components/asked-questions/asked-questions.component';
-import { AccordionItemComponent } from './components/asked-questions/accordion-item/accordion-item.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { ViewsModule } from './views/views.module';
+import { ComponentsModule } from './components/components.module';
 registerLocaleData(localePT)
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    HeaderComponent,
-    PresentationComponent,
-    ContainerComponent,
-    ClientOptionComponent,
-    ClientCardComponent,
-    PricesComponent,
-    PriceTableComponent,
-    WriteToUsComponent,
-    AskedQuestionsComponent,
-    AccordionItemComponent,
-    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ViewsModule,
+    ComponentsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
