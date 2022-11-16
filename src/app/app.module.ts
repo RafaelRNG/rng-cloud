@@ -16,7 +16,7 @@ import { PricesComponent } from './components/prices/prices.component';
 import { PriceTableComponent } from './components/prices/price-table/price-table.component';
 import { WriteToUsComponent } from './components/write-to-us/write-to-us.component';
 import { AskedQuestionsComponent } from './components/asked-questions/asked-questions.component';
-import { AcordionItemComponent } from './components/asked-questions/acordion-item/acordion-item.component';
+import { AccordionItemComponent } from './components/asked-questions/accordion-item/accordion-item.component';
 registerLocaleData(localePT)
 
 @NgModule({
@@ -32,7 +32,7 @@ registerLocaleData(localePT)
     PriceTableComponent,
     WriteToUsComponent,
     AskedQuestionsComponent,
-    AcordionItemComponent
+    AccordionItemComponent
   ],
   imports: [
     BrowserModule,

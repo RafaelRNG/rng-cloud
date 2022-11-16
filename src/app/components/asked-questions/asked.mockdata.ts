@@ -1,0 +1,15 @@
+export interface AskedInterface {
+   idAccordionHeader?: string
+   idAccordionBody?: string
+   title?: string
+   body?: string
+}
+
+export const askeds: AskedInterface[] = [
+   { idAccordionHeader: 'firstHeader', idAccordionBody: 'firstBody', title: "Quanto tempo leva para confirmar o pagamento?", body: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus cumque nam nisi? Voluptatibus a ex libero rem animi officiis maiores neque, nam hic aliquam! Quia.' },
+   { idAccordionHeader: 'secondaryHeader', idAccordionBody: 'secondaryBody', title: "O preço é fixo?", body: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, excepturi aliquam. Quos ut dicta praesentium accusamus atque soluta ab sint, ea cumque. Expedita labore temporibus est quam officiis  consequuntur maiores, blanditiis neque id vel veniam iure ex, laborum molestias obcaecati praesentiumsunt nemo porro impedit. Optio totam fugit debitis unde!' },
+   { idAccordionHeader: "thirdHeader", idAccordionBody: "thirdBody", title: "Posso compartilhar minha conta?", body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, excepturi aliquam. Quos ut dicta  praesentium accusamus atque soluta ab sint, ea cumque. Expedita labore temporibus est quam officiis   consequuntur maiores, blanditiis neque id vel veniam iure ex, laborum molestias obcaecati praesentium    sunt nemo porro impedit. Optio totam fugit debitis unde!" },
+   { idAccordionHeader: "bedroomHeader", idAccordionBody: "bedroomBody", title: "Política de reembolso", body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, excepturi aliquam. Quos ut dicta  praesentium accusamus atque soluta ab sint, ea cumque. Expedita labore temporibus est quam officiis   consequuntur maiores, blanditiis neque id vel veniam iure ex, laborum molestias obcaecati praesentium    sunt nemo porro impedit. Optio totam fugit debitis unde!" },
+   { idAccordionHeader: "fifthHeader", idAccordionBody: "fifthBody", title: "Posso adicionar algum serviço sem taxa extra?", body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, excepturi aliquam. Quos ut dicta  praesentium accusamus atque soluta ab sint, ea cumque. Expedita labore temporibus est quam officiis   consequuntur maiores, blanditiis neque id vel veniam iure ex, laborum molestias obcaecati praesentium    sunt nemo porro impedit. Optio totam fugit debitis unde!" },
+   { idAccordionHeader: "sixthHeader", idAccordionBody: "sixthBody", title: "Politica de segunraça", body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, excepturi aliquam. Quos ut dicta  praesentium accusamus atque soluta ab sint, ea cumque. Expedita labore temporibus est quam officiis   consequuntur maiores, blanditiis neque id vel veniam iure ex, laborum molestias obcaecati praesentium    sunt nemo porro impedit. Optio totam fugit debitis unde!" },
+]

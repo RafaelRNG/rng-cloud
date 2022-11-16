@@ -1,22 +1,11 @@
 <section style="margin-top: 5.5rem ;">
    <h3 class="h2 text-center text-secondary">Duvidas frequentes!</h3>
 
-   <div class="accordion accordion-flush" id="{{ parentData }}">
+   <div class="accordion accordion-flushm mt-5" id="{{ parentData }}">
 
-      <rng-acordion-item [parentData]="parentData" idAccordionHeader="firstHeader" idAccordionBody="firstBody"
-         title="Quanto tempo leva para confirmar o pagamento?" body="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus cumque nam nisi? Voluptatibus a ex
-         libero rem animi officiis maiores neque, nam hic aliquam! Quia."></rng-acordion-item>
-
-      <rng-acordion-item [parentData]="parentData" idAccordionHeader="secondaryHeader" idAccordionBody="secondaryBody"
-         title="O preço é fixo?" body="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, excepturi aliquam. Quos ut dicta
-            praesentium accusamus atque soluta ab sint, ea cumque. Expedita labore temporibus est quam officiis
-            consequuntur maiores, blanditiis neque id vel veniam iure ex, laborum molestias obcaecati praesentium
-            sunt nemo porro impedit. Optio totam fugit debitis unde!"></rng-acordion-item>
-
-      <rng-acordion-item [parentData]="parentData" idAccordionHeader="thirdHeader" idAccordionBody="thirdBody"
-         title="Posso compartilhar minha conta?" body="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, excepturi aliquam. Quos ut dicta
-            praesentium accusamus atque soluta ab sint, ea cumque. Expedita labore temporibus est quam officiis
-            consequuntur maiores, blanditiis neque id vel veniam iure ex, laborum molestias obcaecati praesentium
-            sunt nemo porro impedit. Optio totam fugit debitis unde!"></rng-acordion-item>
+      <ng-template ngFor let-asked [ngForOf]="askeds">
+         <rng-accordion-item [parentData]="parentData" [idAccordionHeader]="asked.idAccordionHeader"
+            [idAccordionBody]="asked.idAccordionBody" [title]="asked.title" [body]="asked.body"></rng-accordion-item>
+      </ng-template>
    </div>
 </section>

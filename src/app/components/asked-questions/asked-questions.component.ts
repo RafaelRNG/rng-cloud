@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AskedInterface, askeds } from './asked.mockdata';
 
 @Component({
   selector: 'rng-asked-questions',
@@ -8,10 +9,11 @@ import { Component, OnInit } from '@angular/core';
 export class AskedQuestionsComponent implements OnInit {
 
   public parentData: string = 'parent data'
+  public askeds!: AskedInterface[]
 
   constructor() { }
 
   ngOnInit(): void {
+    this.askeds = askeds
   }
-
 }
