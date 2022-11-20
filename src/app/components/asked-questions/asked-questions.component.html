@@ -2,7 +2,6 @@
    <h3 class="h2 text-center text-secondary">Dúvidas frequentes!</h3>
 
    <div class="accordion accordion-flushm mt-5" id="{{ parentData }}">
-
       <ng-template ngFor let-asked [ngForOf]="askeds">
          <rng-accordion-item [parentData]="parentData" [idAccordionHeader]="asked.idAccordionHeader"
             [idAccordionBody]="asked.idAccordionBody" [title]="asked.title" [body]="asked.body"></rng-accordion-item>
